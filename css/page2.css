@@ -47,13 +47,19 @@ body {
      background-color: #FFC0CB;
 }
 
-.main-content {
+.site-container {
      margin: 0 auto;
      width: 600px;
 }
 
+.site-header {
+     margin-top: 30px;
+     margin-right: auto;
+}
+
+
 img {
-     margin: 10px 50px;
+     margin-left: 50px;
      width: 80%;
 }
 
@@ -64,8 +70,12 @@ p {
      margin: 0 120px 50px;
 }
 
+.site-content {
+     margin-bottom: 100px;
+}
+
 form {
-     margin: 25px 50px 50px;
+     margin: 25px 50px 25px;
 }
 
 label {
@@ -116,13 +126,26 @@ input[type="submit"]:hover {
 }
 
 .photo {
+     box-sizing: content-box;
      background-image: url("../images/gifs/jambo.gif");
      width: 500px;
      height: 280px;
      border: 10px solid white;
      box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
-     margin: 0 50px;
+     margin: 0 30px 100px;
      float: left;
+}
+
+.site-footer {
+     font-family: "Indie Flower";
+     color: #FF1493;
+     font-size: 1em;
+     margin: 0 170px 20px;
+}
+
+a {
+     text-decoration: none;
+     color: inherit;
 }
 
 /******************************************

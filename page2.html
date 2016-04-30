@@ -5,27 +5,34 @@
     	<meta name="description" content="A Mean Girls quote generator">
     	<meta name="keywords" content="mean girls, quotes, burn book">
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-		<title>ASK_THE_PLASTICS</title>
+		<title>ASK_THE_BURN_BOOK</title>
 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/page2.css">
 		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class="main-content">
-			<div class="heading">
-				<img src="images/asktheburnbook2.png">
+		<div class="site-container">
+			<header class="site-header">
+				<img src="images/asktheburnbook.png">
 				<p>You're so lucky you have us to guide you</p>
-			</div>
-			<form action="register.php" method="post">
-				<label for="text">Let it out honey</label>
-				<div class="input">
-					<input type="text" name="text" id="text" placeholder="Let it out honey">
-					<input type="submit" Value="Ask">
+			</header>
+			<main class="site-content">
+				<form action="register.php" method="post">
+					<label for="text">Let it out honey</label>
+					<div class="input">
+						<input type="text" name="text" id="text" placeholder="Let it out honey">
+						<input type="submit" Value="Ask">
+					</div>
+				</form>
+				<div class="photo">
 				</div>
-			</form>
-			<div class="photo">
-			</div>
-		</div>
+			</main>
+			<footer class="site-footer">
+				Created by <a href="http://www.devikadalal.com">Devika Dalal</a> &copy; 2016
+			</footer>
+		</div> <!-- .site-container -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

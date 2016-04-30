@@ -33,45 +33,41 @@ a {
 /* LAYOUT                   
 /*******************************************/
 
-/* Doesn't work if inside container. Doesn't show up when I choose no-repeat. At 100% image is too big for container*/
 body {
-	max-width: 1200px; 
+	width:100vw;
+     height:100vh;
      background-image: url("../images/homepage-background.jpg");
-     background-size: 100%;
+     background-size: cover;
      background-repeat: no-repeat;
 }
 
 .container {
-     max-width: 800px;
-     margin: 100px auto;
+     position: absolute;
+     top:60%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     margin: auto;
+     cursor: pointer;
 }
 
 h1 {
      font-family: "Indie Flower";
-     margin-left: 575px;
+     font-size: 1.25em;
+     margin-left: 220px;
      opacity: 0;
 }
 
+.container:hover h1 {
+     opacity: 1;
+}
 
-/*Want to center it so it is fixed*/
 img {
-     margin: 50px 120px;
-     position: relative;
-     transform: all ease 5s; /*Isn't applying to animationr*/
+     cursor: pointer;
 }
 
 img:hover {
      transform: skew(5deg); 
 }
-
-h1 {
-     font-family: "Indie Flower";
-     font-size: 1.5em;
-     margin: 200px auto;
-}
-
-/*Text to show when hover over*/
-
 
 /******************************************
 /* HELPER CLASSES
