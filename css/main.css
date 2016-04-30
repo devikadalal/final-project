@@ -1,0 +1,104 @@
+/* 
+Project Name: Mean Girls Burn Book
+Client: General Assembly
+Author: Devika Dalal
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+
+a {
+	transition:;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Doesn't work if inside container. Doesn't show up when I choose no-repeat. At 100% image is too big for container*/
+body {
+	max-width: 1200px; 
+     background-image: url("../images/homepage-background.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+
+.container {
+     max-width: 800px;
+     margin: 100px auto;
+}
+
+h1 {
+     font-family: "Indie Flower";
+     margin-left: 575px;
+     opacity: 0;
+}
+
+
+/*Want to center it so it is fixed*/
+img {
+     margin: 50px 120px;
+     position: relative;
+     transform: all ease 5s; /*Isn't applying to animationr*/
+}
+
+img:hover {
+     transform: skew(5deg); 
+}
+
+h1 {
+     font-family: "Indie Flower";
+     font-size: 1.5em;
+     margin: 200px auto;
+}
+
+/*Text to show when hover over*/
+
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+

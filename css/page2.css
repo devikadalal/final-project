@@ -1,0 +1,156 @@
+/* 
+Project Name: Mean Girls Burn Book
+Client: General Assembly
+Author: Devika Dalal
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* 
+Red: #B22222
+Pink: #FF69B4
+Text pink: #FF1493;
+*/
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+
+a {
+	transition:;
+}
+
+img {
+     max-width: 100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* 
+"Indie Flower"
+ */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+body {
+     background-color: #FFC0CB;
+}
+
+.main-content {
+     margin: 0 auto;
+     width: 600px;
+}
+
+img {
+     margin: 10px 50px;
+     width: 80%;
+}
+
+p {
+     font-family: "Indie Flower";
+     color: #FF1493;
+     font-size: 1.25em;
+     margin: 0 120px 50px;
+}
+
+form {
+     margin: 25px 50px 50px;
+}
+
+label {
+     font-family: "Indie Flower";
+     font-size: 1.5em;
+     color: #FF1493;
+     margin-left: 160px;
+     display: none;
+}
+
+.input {
+     display: block;
+     margin-top: 10px;
+}
+
+input[type=text] {
+transition: all 0.30s ease-in-out;
+width: 440px;
+outline: none;
+padding: 3px 0px 3px 3px;
+margin: 5px 1px 3px 0px;
+border: 1px solid #FF69B4;
+background: #fbf7da;
+}
+
+input[type=text]:focus {
+box-shadow: 0 0 5px #FF69B4;
+padding: 3px 0px 3px 3px;
+margin: 5px 1px 3px 0px;
+border: 1px solid #FF69B4;
+}
+
+input[placeholder="Let it out honey"] {
+     color: #FF1493 ;
+}
+
+input[type="submit"]{
+     width: 50px;
+     font-family: "Indie Flower";
+     font-size: 1.5em;
+     color: #FF1493;
+     border: none;
+     background: none;
+}
+
+input[type="submit"]:hover {
+    text-shadow: 0 0 5px #FF69B4;
+}
+
+.photo {
+     background-image: url("../images/gifs/jambo.gif");
+     width: 500px;
+     height: 280px;
+     border: 10px solid white;
+     box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+     margin: 0 50px;
+     float: left;
+}
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
