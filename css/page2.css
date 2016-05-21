@@ -23,7 +23,7 @@ Text pink: #FF1493;
 }
 
 a {
-	transition:;
+	transition: 3s all ease;
 }
 
 img {
@@ -45,11 +45,12 @@ img {
 
 body {
      background-color: #FFC0CB;
+     border: 10px solid #FF1493;
 }
 
 .site-container {
      margin: 0 auto;
-     width: 600px;
+     width: 800px;
 }
 
 .site-header {
@@ -59,46 +60,30 @@ body {
 
 
 img {
-     margin-left: 50px;
-     width: 80%;
+     margin-left: 110px;
+     width: 70%;
 }
 
 p {
      font-family: "Indie Flower";
      color: #FF1493;
      font-size: 1.25em;
-     margin: 0 120px 50px;
-}
-
-.site-content {
-     margin-bottom: 100px;
+     margin: 0 240px 50px;
 }
 
 form {
-     margin: 25px 50px 25px;
-}
-
-label {
-     font-family: "Indie Flower";
-     font-size: 1.5em;
-     color: #FF1493;
-     margin-left: 160px;
-     display: none;
-}
-
-.input {
-     display: block;
-     margin-top: 10px;
+     margin-top: 50px
+     margin-bottom: 70px;
+     margin-left: 140px;
 }
 
 input[type=text] {
 transition: all 0.30s ease-in-out;
-width: 440px;
+width: 450px;
 outline: none;
 padding: 3px 0px 3px 3px;
-margin: 5px 1px 3px 0px;
 border: 1px solid #FF69B4;
-background: #fbf7da;
+background: #FFE4E1;
 }
 
 input[type=text]:focus {
@@ -108,8 +93,10 @@ margin: 5px 1px 3px 0px;
 border: 1px solid #FF69B4;
 }
 
-input[placeholder="Let it out honey"] {
-     color: #FF1493 ;
+input[placeholder="Type your name to see what the Burn Book thinks about you"] {
+     color: #FF1493;
+     font-family: "Indie Flower";
+     font-size: 0.90em;
 }
 
 input[type="submit"]{
@@ -128,11 +115,12 @@ input[type="submit"]:hover {
 .photo {
      box-sizing: content-box;
      background-image: url("../images/gifs/jambo.gif");
+     background-size: cover;
      width: 500px;
      height: 280px;
-     border: 10px solid white;
-     box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
-     margin: 0 30px 100px;
+     border: 10px solid #FFE4E1;
+     box-shadow: 0px 0px 50px #FF69B4;
+     margin: 20px 120px 100px;
      float: left;
 }
 
@@ -140,12 +128,98 @@ input[type="submit"]:hover {
      font-family: "Indie Flower";
      color: #FF1493;
      font-size: 1em;
-     margin: 0 170px 20px;
+     margin: 0 270px 10px;
 }
 
 a {
      text-decoration: none;
      color: inherit;
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+@media only screen and (max-width: 820px) {
+
+     img {
+          width: 50%;
+          margin-left: 200px;
+     }
+
+     p {
+          margin-left: 250px;
+     }
+
+     form {
+          margin-left: 160px;
+     }
+
+     .photo {
+          margin-left: 130px;
+     }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+     body {
+          border: none;
+     }
+
+     .site-container {
+          width: 500px;
+     }
+
+     .site-header {
+          margin-left: auto;
+          margin-right: auto;
+     }
+
+     img {
+          width: 70%;
+          margin-left: 70px;
+     }
+
+     p {
+          margin-left: 8em;
+          margin-right: 0px;
+          font-size: 1em;
+     }
+
+     form {
+     margin: 50px auto 20px 100px;
+}
+
+     input[type=text] {
+          margin: none;
+          width: 280px;
+     }
+
+     input[placeholder="Type your name to see what the Burn Book thinks about you"] {
+     font-size: 0.65em;
+     }
+
+     input[type="submit"] {
+          width: 25px ;
+          margin: none;
+          font-size: 1em;
+     }
+
+     .photo {
+          width: 300px;
+          height: 190px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 150px;
+          float: none;
+     }
+
+     .site-footer {
+          margin-left: 150px;
+          margin-right: auto;
+          font-size: 0.75em;
+     }
 }
 
 /******************************************
@@ -168,11 +242,6 @@ a {
 .is-visible {
      display: block;
 }
-
-
-/******************************************
-/* ADDITIONAL STYLES                   
-/*******************************************/
 
 
 
